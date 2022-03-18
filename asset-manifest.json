@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/microeducation/static/css/main.8896e8fc.chunk.css",
-    "main.js": "/microeducation/static/js/main.acdf2591.chunk.js",
-    "main.js.map": "/microeducation/static/js/main.acdf2591.chunk.js.map",
+    "main.js": "/microeducation/static/js/main.6d471651.chunk.js",
+    "main.js.map": "/microeducation/static/js/main.6d471651.chunk.js.map",
     "runtime-main.js": "/microeducation/static/js/runtime-main.f4d5952d.js",
     "runtime-main.js.map": "/microeducation/static/js/runtime-main.f4d5952d.js.map",
-    "static/js/2.39d9edd5.chunk.js": "/microeducation/static/js/2.39d9edd5.chunk.js",
-    "static/js/2.39d9edd5.chunk.js.map": "/microeducation/static/js/2.39d9edd5.chunk.js.map",
+    "static/js/2.72c76fcf.chunk.js": "/microeducation/static/js/2.72c76fcf.chunk.js",
+    "static/js/2.72c76fcf.chunk.js.map": "/microeducation/static/js/2.72c76fcf.chunk.js.map",
     "index.html": "/microeducation/index.html",
     "static/css/main.8896e8fc.chunk.css.map": "/microeducation/static/css/main.8896e8fc.chunk.css.map",
-    "static/js/2.39d9edd5.chunk.js.LICENSE.txt": "/microeducation/static/js/2.39d9edd5.chunk.js.LICENSE.txt"
+    "static/js/2.72c76fcf.chunk.js.LICENSE.txt": "/microeducation/static/js/2.72c76fcf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4d5952d.js",
-    "static/js/2.39d9edd5.chunk.js",
+    "static/js/2.72c76fcf.chunk.js",
     "static/css/main.8896e8fc.chunk.css",
-    "static/js/main.acdf2591.chunk.js"
+    "static/js/main.6d471651.chunk.js"
   ]
 }
