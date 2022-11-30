@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/microeducation/static/css/main.8896e8fc.chunk.css",
-    "main.js": "/microeducation/static/js/main.c827c6c4.chunk.js",
-    "main.js.map": "/microeducation/static/js/main.c827c6c4.chunk.js.map",
-    "runtime-main.js": "/microeducation/static/js/runtime-main.f4d5952d.js",
-    "runtime-main.js.map": "/microeducation/static/js/runtime-main.f4d5952d.js.map",
-    "static/js/2.976a9831.chunk.js": "/microeducation/static/js/2.976a9831.chunk.js",
-    "static/js/2.976a9831.chunk.js.map": "/microeducation/static/js/2.976a9831.chunk.js.map",
+    "main.css": "/microeducation/static/css/main.6c889bb9.chunk.css",
+    "main.js": "/microeducation/static/js/main.63eac407.chunk.js",
+    "main.js.map": "/microeducation/static/js/main.63eac407.chunk.js.map",
+    "runtime-main.js": "/microeducation/static/js/runtime-main.1b5e7d4e.js",
+    "runtime-main.js.map": "/microeducation/static/js/runtime-main.1b5e7d4e.js.map",
+    "static/js/2.5a36d49c.chunk.js": "/microeducation/static/js/2.5a36d49c.chunk.js",
+    "static/js/2.5a36d49c.chunk.js.map": "/microeducation/static/js/2.5a36d49c.chunk.js.map",
     "index.html": "/microeducation/index.html",
-    "static/css/main.8896e8fc.chunk.css.map": "/microeducation/static/css/main.8896e8fc.chunk.css.map",
-    "static/js/2.976a9831.chunk.js.LICENSE.txt": "/microeducation/static/js/2.976a9831.chunk.js.LICENSE.txt"
+    "static/css/main.6c889bb9.chunk.css.map": "/microeducation/static/css/main.6c889bb9.chunk.css.map",
+    "static/js/2.5a36d49c.chunk.js.LICENSE.txt": "/microeducation/static/js/2.5a36d49c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4d5952d.js",
-    "static/js/2.976a9831.chunk.js",
-    "static/css/main.8896e8fc.chunk.css",
-    "static/js/main.c827c6c4.chunk.js"
+    "static/js/runtime-main.1b5e7d4e.js",
+    "static/js/2.5a36d49c.chunk.js",
+    "static/css/main.6c889bb9.chunk.css",
+    "static/js/main.63eac407.chunk.js"
   ]
 }
