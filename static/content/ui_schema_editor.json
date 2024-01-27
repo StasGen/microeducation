@@ -1,0 +1,265 @@
+{
+    "type": "object",
+    "properties": {
+      "version": {
+        "type": "number",
+        "minimum": 0,
+        "default": 1
+      },
+      "contentURL": {
+        "type": "string"
+      },
+      "courses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "flowTopic": {
+              "type": "string",
+              "default": "newTopic"
+            },
+            "_language": {
+              "type": "string",
+              "default": "All",
+              "enum": [
+                "All",
+                "None",
+                "English",
+                "Chinese",
+                "Russian",
+                "Japanese",
+                "Ukrainian",
+                "French",
+                "German",
+                "Portuguese",
+                "Italian",
+                "Spanish",
+                "Romanian"
+              ]
+            },
+            "version": {
+              "type": "number",
+              "default": 1,
+              "minimum": 0
+            },
+            "id": {
+              "type": "string",
+              "default": "$uuid"
+            },
+            "card": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "default": "New card title"
+                },
+                "imageURL": {
+                  "type": "string",
+                  "default": "https://i.onthe.io/ttmdhw747dgvun60p.f9d74fae.jpeg"
+                },
+                "description": {
+                  "type": "string",
+                  "default": "New card description"
+                },
+                "header": {
+                  "type": "string",
+                  "default": "Microlearning"
+                }
+              },
+              "default": {
+                "title": "New card title",
+                "imageURL": "https://i.onthe.io/ttmdhw747dgvun60p.f9d74fae.jpeg",
+                "overview": "New card overview",
+                "header": "Microlearning"
+              },
+              "required": [
+                "title",
+                "imageURL",
+                "description"
+              ]
+            },
+            "preview": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "imageURL": {
+                  "type": "string"
+                },
+                "overview": {
+                  "type": "string"
+                }
+              },
+              "default": {
+                "title": "New preview title",
+                "imageURL": "https://i.onthe.io/ttmdhw747dgvun60p.f9d74fae.jpeg",
+                "overview": "New preview overview"
+              },
+              "required": [
+                "title",
+                "imageURL",
+                "overview"
+              ]
+            },
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "default": "New episode title"
+                  },
+                  "description": {
+                    "type": "string",
+                    "default": "New episode description"
+                  },
+                  "position": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "default": 1
+                  },
+                  "id": {
+                    "type": "string",
+                    "default": "$uuid"
+                  },
+                  "stories": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "default": "$uuid"
+                        },
+                        "version": {
+                          "type": "number",
+                          "minimum": 0,
+                          "default": 1
+                        },
+                        "position": {
+                          "type": "integer",
+                          "minimum": 0,
+                          "default": 1
+                        },
+                        "content": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string",
+                              "enum": [
+                                "textIllustration",
+                                "question",
+                                "quote"
+                              ]
+                            },
+                            "illustrationURL": {
+                              "type": "string"
+                            },
+                            "question": {
+                              "type": "string"
+                            },
+                            "questionFooter": {
+                              "type": "string"
+                            },
+                            "header": {
+                              "type": "string"
+                            },
+                            "text": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "answerOptions": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "text": {
+                                    "type": "string",
+                                    "default": ""
+                                  },
+                                  "isCorrect": {
+                                    "type": "boolean",
+                                    "default": true
+                                  },
+                                  "explanation": {
+                                    "type": "object",
+                                    "properties": {
+                                      "header": {
+                                        "type": "string",
+                                        "default": ""
+                                      },
+                                      "text": {
+                                        "type": "string",
+                                        "default": ""
+                                      }
+                                    },
+                                    "default": {
+                                      "header": "",
+                                      "text": ""
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "continueButtonTitle": {
+                              "type": "string"
+                            }
+                          },
+                          "default": {
+                            "type": "textIllustration",
+                            "illustrationURL": "https://i.onthe.io/ttmdhw747dgvun60p.f9d74fae.jpeg",
+                            "header": "New story header",
+                            "text": "New story text"
+                          },
+                          "required": [
+                            "type"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "version",
+                        "position",
+                        "content"
+                      ],
+                      "default": {
+                        "id": "60e5daf0-ac93-4550-b443-aaf7158cf356",
+                        "version": 1,
+                        "position": 1
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "position",
+                  "title",
+                  "description",
+                  "stories"
+                ]
+              }
+            }
+          },
+          "required": [
+            "version",
+            "id",
+            "flowTopic",
+            "card",
+            "preview",
+            "episodes"
+          ]
+        }
+      }
+    },
+    "required": [
+      "version",
+      "courses"
+    ]
+}
