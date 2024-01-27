@@ -1,6 +1,6 @@
 const releasesTabJson = [
     {
-        "label": "v11 (30.11.22, 14:22) [childhood + wmhd ua + wmhd] & localization",
+        "label": ">>> 27.01.24 <<<",
         "data": {}
     }
 ];
